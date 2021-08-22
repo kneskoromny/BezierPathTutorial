@@ -13,7 +13,7 @@
 		F7703BC026D2A4EF00D7DAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7703BBE26D2A4EF00D7DAFB /* Main.storyboard */; };
 		F7703BC226D2A4F100D7DAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7703BC126D2A4F100D7DAFB /* Assets.xcassets */; };
 		F7703BC526D2A4F100D7DAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7703BC326D2A4F100D7DAFB /* LaunchScreen.storyboard */; };
-		F7703BCD26D2A52700D7DAFB /* UIIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7703BCC26D2A52700D7DAFB /* UIIntroductionView.swift */; };
+		F7703BCD26D2A52700D7DAFB /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7703BCC26D2A52700D7DAFB /* IntroductionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		F7703BC126D2A4F100D7DAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7703BC426D2A4F100D7DAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7703BC626D2A4F100D7DAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7703BCC26D2A52700D7DAFB /* UIIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIIntroductionView.swift; sourceTree = "<group>"; };
+		F7703BCC26D2A52700D7DAFB /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 				F7703BB826D2A4EF00D7DAFB /* AppDelegate.swift */,
 				F7703BBA26D2A4EF00D7DAFB /* SceneDelegate.swift */,
 				F7703BBC26D2A4EF00D7DAFB /* ViewController.swift */,
+				F7703BCC26D2A52700D7DAFB /* IntroductionView.swift */,
 				F7703BBE26D2A4EF00D7DAFB /* Main.storyboard */,
 				F7703BC126D2A4F100D7DAFB /* Assets.xcassets */,
 				F7703BC326D2A4F100D7DAFB /* LaunchScreen.storyboard */,
 				F7703BC626D2A4F100D7DAFB /* Info.plist */,
-				F7703BCC26D2A52700D7DAFB /* UIIntroductionView.swift */,
 			);
 			path = BezierPathTutorial;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			files = (
 				F7703BBD26D2A4EF00D7DAFB /* ViewController.swift in Sources */,
 				F7703BB926D2A4EF00D7DAFB /* AppDelegate.swift in Sources */,
-				F7703BCD26D2A52700D7DAFB /* UIIntroductionView.swift in Sources */,
+				F7703BCD26D2A52700D7DAFB /* IntroductionView.swift in Sources */,
 				F7703BBB26D2A4EF00D7DAFB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
