@@ -7,7 +7,7 @@
 
 import UIKit
 
-class IntroductionView: UIView {
+class IntroductionView1: UIView {
     override func draw(_ rect: CGRect) {
         // обрезает нижние фигуры по своему размеру
         let pathRect3 = CGRect(x: 40, y: 40, width: 120, height: 120)
@@ -26,7 +26,8 @@ class IntroductionView: UIView {
         
         let pathRect2 = CGRect(x: 50, y: 50, width: 100, height: 100)
         let path2 = UIBezierPath(roundedRect: pathRect2, cornerRadius: 24)
-        let color2 = UIColor.green
+        path2.lineWidth = 4
+        let color2 = UIColor.yellow
         color2.setStroke()
         path2.stroke()
         
