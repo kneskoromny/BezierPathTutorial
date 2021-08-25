@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NpZ-cJ-Bhc" customClass="IntroductionView2" customModule="BezierPathTutorial" customModuleProvider="target">
-                                <rect key="frame" x="63" y="298" width="289" height="235"/>
+                                <rect key="frame" x="63" y="301" width="289" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>
