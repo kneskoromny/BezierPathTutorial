@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlS-fg-aiQ" customClass="IntroductionView1" customModule="BezierPathTutorial" customModuleProvider="target">
-                                <rect key="frame" x="63" y="44" width="289" height="217"/>
+                                <rect key="frame" x="63" y="44" width="289" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NpZ-cJ-Bhc" customClass="IntroductionView2" customModule="BezierPathTutorial" customModuleProvider="target">
-                                <rect key="frame" x="63" y="301" width="289" height="240"/>
+                                <rect key="frame" x="63" y="261" width="280" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHR-5C-0RO" customClass="IntroductionView3" customModule="BezierPathTutorial" customModuleProvider="target">
-                                <rect key="frame" x="63" y="578" width="289" height="250"/>
+                                <rect key="frame" x="63" y="598" width="289" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>

@@ -22,6 +22,12 @@ class IntroductionView2: UIView {
     // метод для рисования облака
     private func drawCloud(in rect: CGRect) {
         
+        let pathSunRect = CGRect(x: rect.width * 0.5, y: rect.height * 0.1, width: rect.width * 0.4, height: rect.height * 0.4)
+        let pathSun = UIBezierPath(ovalIn: pathSunRect)
+        let colorSun = UIColor.yellow
+        colorSun.setFill()
+        pathSun.fill()
+        
         let point1 = CGPoint(x: rect.width * 0.1, y: rect.height * 0.6)
         let point2 = CGPoint(x: rect.width * 0.3, y: rect.height * 0.5)
         let point3 = CGPoint(x: rect.width * 0.6, y: rect.height * 0.45)
@@ -32,19 +38,19 @@ class IntroductionView2: UIView {
         let controlPoint3 = CGPoint(x: rect.width, y: rect.height * 0.3)
         let controlPoint4 = CGPoint(x: rect.width * 0.5, y: rect.height)
         
-        let path = UIBezierPath()
+        let pathCloud = UIBezierPath()
         
-        path.move(to: point1)
-        path.addQuadCurve(to: point2, controlPoint: controlPoint1)
-        path.addQuadCurve(to: point3, controlPoint: controlPoint2)
-        path.addQuadCurve(to: point4, controlPoint: controlPoint3)
-        path.addQuadCurve(to: point1, controlPoint: controlPoint4)
+        pathCloud.move(to: point1)
+        pathCloud.addQuadCurve(to: point2, controlPoint: controlPoint1)
+        pathCloud.addQuadCurve(to: point3, controlPoint: controlPoint2)
+        pathCloud.addQuadCurve(to: point4, controlPoint: controlPoint3)
+        pathCloud.addQuadCurve(to: point1, controlPoint: controlPoint4)
         
-        path.lineWidth = 3
+        pathCloud.lineWidth = 3
         let color = UIColor.white
         
         color.setFill()
-        path.fill()
+        pathCloud.fill()
         
     }
     //  метод для рисования окружности
